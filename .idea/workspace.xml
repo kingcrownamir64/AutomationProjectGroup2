@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="052a508a-f602-44ca-bf5e-df4e5e0ded4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/SQLDriver/mysql-connector-java-5.1.41-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/Secret.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/Databases/ConnectToSQLDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/Databases/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/Utility/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/src/test/java/TestHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/classes/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/practiceautomation-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/practiceautomation-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/TEST-TestHomepage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/TestHomepage.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/TestHomepage/Command line test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/TestHomepage/Command line test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/junitreports/TEST-TestHomepage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/Command line test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/TestHomepage/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceautomation/target/test-classes/TestHomepage.class" beforeDir="false" />
-    </list>
+    <list default="true" id="052a508a-f602-44ca-bf5e-df4e5e0ded4d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -87,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="326">
+              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -239,7 +188,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="479" />
+    <option name="width" value="962" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -290,7 +239,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553050444279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553053321119" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -425,10 +374,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="262" height="900" extended-state="6" />
+    <frame x="0" y="0" width="962" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.8636364" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25652173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,12 +386,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35180724" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35180724" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -590,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="326">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
