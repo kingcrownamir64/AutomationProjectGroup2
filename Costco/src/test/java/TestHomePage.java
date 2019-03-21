@@ -27,7 +27,7 @@ public class TestHomePage extends BaseClient {
         this.homePage.clickCategoriesTab();
         this.homePage.clickComputerFromDropDown();
     }
-
+    //TEST 3
     @Test
     public void search(){
         this.driver.navigate().to(this.homepageUrl);
