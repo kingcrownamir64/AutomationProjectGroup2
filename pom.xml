@@ -23,7 +23,7 @@
               <artifactId>selenium-java</artifactId>
               <version>3.141.59</version>
           </dependency>
-
+g
           <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
           <dependency>
               <!--//Add selenium server-->
