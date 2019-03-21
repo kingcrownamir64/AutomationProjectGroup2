@@ -68,4 +68,20 @@ public class TestHomepage extends BaseClient{
         //String changeLanguage = driver.getTitle();
         //Assert.assertEquals(changeLanguage, "Change Language Settings");
     }
-}
+
+    // 11. Check if amazon menu button opens
+    @Test
+    public void TestMenuButton() {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setMenuButton();
+    }
+
+    // 12. Check if Your buy again button works & navigates to correct page
+    @Test
+    public void TestBuyAgainButton() {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.setBuyAgainButton();
+        String changeLanguage = driver.getTitle();
+        Assert.assertEquals(changeLanguage, "Your Amazon.com");
+    }
+    }

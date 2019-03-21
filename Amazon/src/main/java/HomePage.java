@@ -14,7 +14,6 @@ import org.openqa.selenium.support.FindBy;
         @FindBy(id = "nav-cart")
         private WebElement cartButton;
 
-
         @FindBy(id="nav-your-amazon")
         private WebElement YourAmazonButton;
 
@@ -23,6 +22,12 @@ import org.openqa.selenium.support.FindBy;
 
         @FindBy (css = ".Your Account")
         private WebElement topLink;
+
+        @FindBy(id="nav-hamburger-menu")
+        private WebElement MenuButton;
+
+        @FindBy(xpath="//*[@id=\"nav-xshop\"]/a[1]")
+        private WebElement BuyAgainButton;
 
 
 
@@ -44,6 +49,14 @@ import org.openqa.selenium.support.FindBy;
 
         public void setLanguageBar() {
             this.LanguageBar.click();
+        }
+
+        public void setMenuButton() {
+            this.MenuButton.click();
+        }
+
+        public void setBuyAgainButton() {
+            this.BuyAgainButton.click();
         }
 
         public void mouseHovering() throws Exception {
