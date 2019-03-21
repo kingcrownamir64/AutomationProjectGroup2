@@ -1,46 +1,60 @@
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-    public class HomePage extends BaseClient {
+public class HomePage extends BaseClient {
 
 
-        @FindBy(id = "twotabsearchtextbox")
-        private WebElement searchBox;
+    @FindBy(id = "twotabsearchtextbox")
+    private WebElement searchBox;
 
-        @FindBy(className = "nav-input")
-        private WebElement searchButton;
+    @FindBy(className = "nav-input")
+    private WebElement searchButton;
 
-        @FindBy(id = "nav-cart")
-        private WebElement cartButton;
-
-
-        @FindBy(id="nav-your-amazon")
-        private WebElement YourAmazonButton;
-
-        @FindBy(id="icp-touch-link-language")
-        private WebElement LanguageBar;
+    @FindBy(id = "nav-cart")
+    private WebElement cartButton;
 
 
+    @FindBy(id="nav-your-amazon")
+    private WebElement YourAmazonButton;
 
-        public void searchBoxHome(String text) {
-            this.searchBox.sendKeys(text);
-        }
+    @FindBy(xpath="//*[@id='nav-link-accountList'']/span[2]")
+    private WebElement LanguageBar;
 
-        public void SearchButtonHome() {
-            this.searchBox.click();
-        }
+    @FindBy (css = ".Your Account")
+    private WebElement topLink;
 
-        public void setCartButton() {
-            this.cartButton.click();
-        }
 
-        public void setYourAmazonButton() {
-            this.YourAmazonButton.click();
-        }
 
-        public void setLanguageBar() {
-            this.LanguageBar.click();
-        }
-
+    public void searchBoxHome(String text) {
+        this.searchBox.sendKeys(text);
     }
+
+    public void SearchButtonHome() {
+        this.searchBox.click();
+    }
+
+    public void setCartButton() {
+        this.cartButton.click();
+    }
+
+    public void setYourAmazonButton() {
+        this.YourAmazonButton.click();
+    }
+
+    public void setLanguageBar() {
+        this.LanguageBar.click();
+    }
+
+    public void mouseHovering() throws Exception {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(LanguageBar).perform();
+        Thread.sleep(2000);
+        actions.moveToElement(topLink).perform();
+        Thread.sleep(1500);
+        actions.click().build().perform();
+    }
+
+
+}
 
