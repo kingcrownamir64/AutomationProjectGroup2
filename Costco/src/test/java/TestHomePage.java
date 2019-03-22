@@ -14,28 +14,72 @@ public class TestHomePage extends BaseClient {
         this.homePage = PageFactory.initElements(this.driver, HomePage.class);
     }
     //TEST 1
-    @Test
+    @Test(priority = 1)
     public void testHomepageTitle(){
         this.driver.navigate().to(this.homepageUrl);
         String homepageTitle = driver.getTitle();
         Assert.assertEquals(homepageTitle, "Welcome to Costco Wholesale");
     }
     //TEST 2
-    @Test
+    @Test(priority = 2)
     public void clickCategoriesTest() throws Exception{
         this.driver.navigate().to(this.homepageUrl);
         this.homePage.clickCategoriesTab();
         this.homePage.clickComputerFromDropDown();
-        String ComputerUrl = "https://www.costco.com/computers.html";
-        Assert.assertEquals(this.driver.getCurrentUrl(), "https://www.costco.com/computers.html");
+        String ComputerUrl = driver.getCurrentUrl();
+        Assert.assertEquals(ComputerUrl, "https://www.costco.com/computers.html");
     }
     //TEST 3
-    @Test
-    public void search(){
+    @Test(priority = 3)
+    public void search() throws Exception{
         this.driver.navigate().to(this.homepageUrl);
         this.homePage.inputInSearchBox("computers");
-        String ComputerUrl = "https://www.costco.com/computers.html";
-        Assert.assertEquals(this.driver.getCurrentUrl(), "https://www.costco.com/computers.html");
+        this.homePage.clickSearchButton();
+        String computerTitle = driver.getTitle();
+        Assert.assertEquals(computerTitle, "Computers | Costco");
+    }
+    //TEST 4
+    @Test(priority = 4)
+    public void testCustomerService() throws Exception{
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.clickOnCustomerService();
+        String customerServiceTitle = driver.getTitle();
+        Assert.assertEquals(customerServiceTitle, "Support Home Page");
+    }
+    //TEST 5
+    @Test(priority = 5)
+    public void searchMacbook() throws Exception{
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.inputInSearchBox("macbook");
+        this.homePage.clickSearchButton();
+        String computerTitle = driver.getTitle();
+        Assert.assertEquals(computerTitle, "macbook | Costco");
+    }
+
+    //TEST 6
+    @Test(priority = 6)
+    public void clickLocationsTab() throws Exception {
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.clickLocationsTab();
+        String locationsUrl = driver.getCurrentUrl();
+        Assert.assertEquals(locationsUrl, "https://www.costco.com/warehouse-locations?langId=-1&storeId=10301&catalogId=10701");
+    }
+
+    //TEST 7
+    @Test (priority = 7)
+    public void testDropDown()throws Exception{
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.clickDropDown();
+        this.homePage.clickGrocery();
+    }
+    //TEST 8
+    @Test (priority = 8)
+    public void searchInGrocery()throws Exception{
+        this.driver.navigate().to(this.homepageUrl);
+        this.homePage.clickDropDown();
+        this.homePage.clickGrocery();
+        this.homePage.inputInSearchBox("cereal");
+        this.homePage.clickSearchButton();
     }
 
 

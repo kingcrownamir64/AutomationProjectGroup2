@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="052a508a-f602-44ca-bf5e-df4e5e0ded4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Costco/Costco.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Costco/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/MembershipPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/TestMembershipClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/TestRegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/TestSignInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/java/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/classes/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/classes/LocationsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/LocationsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/TestHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/TestLocationsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/TestLocationsPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,31 +32,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Costco/src/main/java/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="94">
+              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="137">
+              <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +59,84 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="92">
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/SignInPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestSignInPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-448">
+              <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/MembershipPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestMembershipClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="76" column="43" lean-forward="true" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestRegisterPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="67" column="124" lean-forward="true" selection-start-line="67" selection-start-column="124" selection-end-line="67" selection-end-column="124" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +186,16 @@
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java" />
         <option value="$PROJECT_DIR$/Costco/pom.xml" />
-        <option value="$PROJECT_DIR$/Costco/src/main/java/HomePage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/SignInPage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestSignInPage.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java" />
-        <option value="$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/HomePage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestRegisterPage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/MembershipPage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestMembershipClass.java" />
       </list>
     </option>
   </component>
@@ -142,9 +212,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1143" />
     <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -159,11 +229,6 @@
             <path>
               <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
@@ -215,7 +280,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553152033654" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553237486881" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -239,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestLocationsPage">
+  <component name="RunManager" selected="TestNG.TestMembershipClass.RemoveFromCart">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="AutomationProject" />
       <option name="VM_PARAMETERS" />
@@ -287,21 +352,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.clickCategoriesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Costco" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHomePage" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomepage.TestBuyAgainButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHomepage" />
-      <option name="METHOD_NAME" value="TestBuyAgainButton" />
+      <option name="METHOD_NAME" value="clickCategoriesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -309,32 +364,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLocationsPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.searchInGrocery" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Costco" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLocationsPage" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLoginPage" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLoginPage.SuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLoginPage" />
-      <option name="METHOD_NAME" value="SuccessfulLogin" />
+      <option name="MAIN_CLASS_NAME" value="TestHomePage" />
+      <option name="METHOD_NAME" value="searchInGrocery" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMembershipClass.RemoveFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Costco" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMembershipClass" />
+      <option name="METHOD_NAME" value="RemoveFromCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMembershipClass.TestBusinessExecutive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Costco" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMembershipClass" />
+      <option name="METHOD_NAME" value="TestBusinessExecutive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Costco" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -343,11 +412,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestLocationsPage" />
-        <item itemvalue="TestNG.TestHomePage" />
-        <item itemvalue="TestNG.TestLoginPage" />
-        <item itemvalue="TestNG.TestLoginPage.SuccessfulLogin" />
-        <item itemvalue="TestNG.TestHomepage.TestBuyAgainButton" />
+        <item itemvalue="TestNG.TestMembershipClass.RemoveFromCart" />
+        <item itemvalue="TestNG.TestHomePage.searchInGrocery" />
+        <item itemvalue="TestNG.TestHomePage.clickCategoriesTest" />
+        <item itemvalue="TestNG.TestMembershipClass.TestBusinessExecutive" />
+        <item itemvalue="TestNG.&lt;default&gt; (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -365,42 +434,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomepage_TestCartButton - 2019.03.21 at 01h 26m 30s.xml">
-      <configuration name="TestHomepage.TestCartButton" configurationId="TestNG" />
+    <history-entry file="TestHomePage_searchInGrocery - 2019.03.22 at 01h 07m 42s.xml">
+      <configuration name="TestHomePage.searchInGrocery" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomepage_TestPrimeVideoTabInMenu - 2019.03.21 at 01h 35m 46s.xml">
-      <configuration name="TestHomepage.TestPrimeVideoTabInMenu" configurationId="TestNG" />
+    <history-entry file="TestMembershipClass_RemoveFromCart - 2019.03.22 at 02h 31m 06s.xml">
+      <configuration name="TestMembershipClass.RemoveFromCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomepage_TestPrimeVideoTabInMenu - 2019.03.21 at 01h 37m 32s.xml">
-      <configuration name="TestHomepage.TestPrimeVideoTabInMenu" configurationId="TestNG" />
+    <history-entry file="TestMembershipClass_RemoveFromCart - 2019.03.22 at 02h 33m 36s.xml">
+      <configuration name="TestMembershipClass.RemoveFromCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomepage_TestPrimeVideoTabInMenu - 2019.03.21 at 01h 41m 14s.xml">
-      <configuration name="TestHomepage.TestPrimeVideoTabInMenu" configurationId="TestNG" />
+    <history-entry file="TestMembershipClass_RemoveFromCart - 2019.03.22 at 02h 35m 01s.xml">
+      <configuration name="TestMembershipClass.RemoveFromCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomepage_TestPrimeVideoTabInMenu - 2019.03.21 at 01h 45m 02s.xml">
-      <configuration name="TestHomepage.TestPrimeVideoTabInMenu" configurationId="TestNG" />
+    <history-entry file="TestMembershipClass_RemoveFromCart - 2019.03.22 at 02h 40m 30s.xml">
+      <configuration name="TestMembershipClass.RemoveFromCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomepage_TestBuyAgainButton - 2019.03.21 at 02h 01m 53s.xml">
-      <configuration name="TestHomepage.TestBuyAgainButton" configurationId="TestNG" />
+    <history-entry file="TestMembershipClass_RemoveFromCart - 2019.03.22 at 02h 42m 55s.xml">
+      <configuration name="TestMembershipClass.RemoveFromCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomepage_TestBuyAgainButton - 2019.03.21 at 02h 06m 04s.xml">
-      <configuration name="TestHomepage.TestBuyAgainButton" configurationId="TestNG" />
+    <history-entry file="TestMembershipClass_RemoveFromCart - 2019.03.22 at 02h 46m 22s.xml">
+      <configuration name="TestMembershipClass.RemoveFromCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLoginPage_SuccessfulLogin - 2019.03.21 at 02h 35m 31s.xml">
-      <configuration name="TestLoginPage.SuccessfulLogin" configurationId="TestNG" />
+    <history-entry file="TestMembershipClass_RemoveFromCart - 2019.03.22 at 02h 48m 21s.xml">
+      <configuration name="TestMembershipClass.RemoveFromCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLoginPage_SuccessfulLogin - 2019.03.21 at 02h 44m 22s.xml">
-      <configuration name="TestLoginPage.SuccessfulLogin" configurationId="TestNG" />
+    <history-entry file="TestMembershipClass_RemoveFromCart - 2019.03.22 at 02h 50m 27s.xml">
+      <configuration name="TestMembershipClass.RemoveFromCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLoginPage - 2019.03.21 at 03h 01m 05s.xml">
-      <configuration name="TestLoginPage" configurationId="TestNG" />
+    <history-entry file="TestMembershipClass_RemoveFromCart - 2019.03.22 at 02h 52m 55s.xml">
+      <configuration name="TestMembershipClass.RemoveFromCart" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1277" height="726" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19224556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13441296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,19 +478,19 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3785489" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35180724" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35173503" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3280757" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.03348214" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.17620344" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -468,16 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/Utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,16 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -560,20 +608,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java">
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/RegisterPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="259">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/Utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="390">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/MembershipPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -582,26 +657,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="2">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
             <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/main/java/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="94">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestSignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-448">
+          <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestMembershipClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="76" column="43" lean-forward="true" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestRegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="67" column="124" lean-forward="true" selection-start-line="67" selection-start-column="124" selection-end-line="67" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

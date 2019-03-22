@@ -13,12 +13,26 @@ public class TestLocationsPage extends BaseClient {
         this.driver.navigate().to(this.LocationsPageUrl);
         this.locationsPage = PageFactory.initElements(this.driver, LocationsPage.class);
     }
-
+    //TEST 1
     @Test
-    public void searchZipCode(){
+    public void TestLocationTitle(){
+        this.driver.navigate().to(this.LocationsPageUrl);
+        String locationTitle = driver.getTitle();
+        Assert.assertEquals(locationTitle, "Find a Costco warehouse- Costco");
+    }
+    //TEST 2
+    @Test
+    public void searchZipCode() throws Exception{
         this.driver.navigate().to(this.LocationsPageUrl);
         this.locationsPage.searchLocationsZipCode("11101");
         this.locationsPage.clickLocationsSearchButton();
+    }
+
+    //TEST 3
+    @Test
+    public void testViewMoreLocations() throws Exception{
+        this.driver.navigate().to(this.LocationsPageUrl);
+        this.locationsPage.clickViewMoreLocations();
     }
 
 }
