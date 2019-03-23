@@ -5,6 +5,7 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 
 import java.io.File;
@@ -40,44 +41,71 @@ public class DataReader {
         return data;
     }
 
+
+
     public String[] fileReader2(String path, int sheetIndex) throws IOException {
         String[] data = {};
-        File file = new File(path);
-        FileInputStream fis = new FileInputStream(file);
-        wb = new HSSFWorkbook(fis);
-        sheet = wb.getSheetAt(sheetIndex);
-        numberOfRows = sheet.getLastRowNum();
-        numberOfCol = sheet.getRow(0).getLastCellNum();
-        data = new String[numberOfRows + 1];
 
-        for (int i = 1; i < data.length; i++) {
-            HSSFRow rows = sheet.getRow(i);
-            for (int j = 0; j < numberOfCol; j++) {
-                HSSFCell cell = rows.getCell(j);
-                String cellData = getCellValue(cell);
-                data[i] = cellData;
+        try {
+            File file = new File(path);
+            FileInputStream fis = new FileInputStream(file);
+            wb = new HSSFWorkbook(fis);
+            sheet = wb.getSheetAt(sheetIndex);
+            int numberOfRows = sheet.getLastRowNum()+1;
+            int numberOfColumns = sheet.getRow(0).getLastCellNum();
+            data = new String[numberOfRows-1];
+
+            for (int i = 1; i < numberOfRows; i++) {
+                HSSFRow row = sheet.getRow(i);
+                for (int j = 0; j < numberOfColumns; j++) {
+                    HSSFCell cell = row.getCell(j);
+                    String cellData = getCellValue(cell);
+                    data[i-1] = cellData;
+                }
             }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
         return data;
     }
 
+//    public String getCellValue(HSSFCell cell) {
+//        Object value = null;
+//
+//        int dataType = cell.getCellType();
+//        switch (dataType) {
+//            case HSSFCell.CELL_TYPE_NUMERIC:
+//                value = cell.getNumericCellValue();
+//                break;
+//            case HSSFCell.CELL_TYPE_STRING:
+//                value = cell.getStringCellValue();
+//                break;
+//            case HSSFCell.CELL_TYPE_BOOLEAN:
+//                value = cell.getBooleanCellValue();
+//                break;
+//        }
+//        return value.toString();
+//
+//    }
+
+
     public String getCellValue(HSSFCell cell) {
+
+        CellType cellType = cell.getCellTypeEnum();
         Object value = null;
 
-        int dataType = cell.getCellType();
-        switch (dataType) {
-            case HSSFCell.CELL_TYPE_NUMERIC:
+        switch (cellType) {
+            case NUMERIC:
                 value = cell.getNumericCellValue();
                 break;
-            case HSSFCell.CELL_TYPE_STRING:
+            case STRING:
                 value = cell.getStringCellValue();
                 break;
-            case HSSFCell.CELL_TYPE_BOOLEAN:
+            case BOOLEAN:
                 value = cell.getBooleanCellValue();
                 break;
         }
         return value.toString();
-
     }
 
     public void writeBack(String value) throws IOException {

@@ -10,5 +10,8 @@
         <module name="Common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Amazon.com" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
