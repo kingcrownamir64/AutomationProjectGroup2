@@ -1,5 +1,6 @@
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,7 @@ public class TestCreateAccountPage extends BaseClient {
         this.CreateaccountPage = PageFactory.initElements(this.driver, CreateAccountPage.class);
     }
 
-    // 1. Tests if website is navigated to the create account page
+    //  Tests if website is navigated to the create account page
     @Test
     public void testUserCanNavigateToCreateAccountPage() {
         this.driver.navigate().to(this.createaccountpageURL);
@@ -25,7 +26,7 @@ public class TestCreateAccountPage extends BaseClient {
         Assert.assertEquals(CreateAccountPageTitle, "Amazon Registration");
     }
 
-    // 2. Tests if user can create account with ONLY name
+    //  Tests if user can create account with ONLY name
     @Test
     public void EnterYourNameOnly() throws InterruptedException {
         this.driver.navigate().to(this.createaccountpageURL);
@@ -34,7 +35,7 @@ public class TestCreateAccountPage extends BaseClient {
         Thread.sleep(2000);
     }
 
-    // 3. Tests if user can create account with ONLY email
+    //  Tests if user can create account with ONLY email
     @Test
     public void EnterYourEmailOnly() throws InterruptedException {
         this.driver.navigate().to(this.createaccountpageURL);
@@ -43,7 +44,7 @@ public class TestCreateAccountPage extends BaseClient {
         Thread.sleep(2000);
     }
 
-    // 4. Tests if user can create account with email and name but no password
+    //  Tests if user can create account with email and name but no password
     @Test
     public void EnterYourNameAndEmail() throws InterruptedException {
         this.driver.navigate().to(this.createaccountpageURL);
@@ -53,7 +54,7 @@ public class TestCreateAccountPage extends BaseClient {
         Thread.sleep(2000);
     }
 
-    // 5. Tests if user can create account with email, password, and name but incorrect re-enter password
+    //  Tests if user can create account with email, password, and name but incorrect re-enter password
     @Test
     public void EnterYourNameEmailPassword() throws InterruptedException {
         this.driver.navigate().to(this.createaccountpageURL);
@@ -65,7 +66,7 @@ public class TestCreateAccountPage extends BaseClient {
         Thread.sleep(2000);
     }
 
-    // 5. Tests if user can create account with email, password, and name but no re-enter password
+    //  Tests if user can create account with email, password, and name but no re-enter password
     @Test
     public void SuccessfulLogin() throws InterruptedException {
         this.driver.navigate().to(this.createaccountpageURL);
@@ -75,5 +76,10 @@ public class TestCreateAccountPage extends BaseClient {
         this.CreateaccountPage.ReEnterPassword("Password1234!");
         this.CreateaccountPage.CreateAccountButton();
         Thread.sleep(2000);
+    }
+
+    @AfterClass
+    public void cleanUp() {
+        this.driver.quit();
     }
 }

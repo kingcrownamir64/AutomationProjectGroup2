@@ -18,7 +18,7 @@ public class TestLoginpage extends BaseClient{
         this.driver.navigate().to(this.signInPageUrl);
     }
 
-    // 1. Tests if user can login without a password
+    //  Tests if user can login without a password
     @Test
     public void NoPasswordLogin() {
         this.driver.navigate().to(this.signInPageUrl);
@@ -27,7 +27,7 @@ public class TestLoginpage extends BaseClient{
         this.signInPage.SignIn();
     }
 
-    // 2. Tests if user can login without any credentials
+    //  Tests if user can login without any credentials
     @Test
     public void NoCredentialLogin() {
         this.driver.navigate().to(this.signInPageUrl);
@@ -36,7 +36,7 @@ public class TestLoginpage extends BaseClient{
         this.signInPage.SignIn();
     }
 
-    // 3. Tests if user can login without any email
+    //  Tests if user can login without any email
     @Test
     public void NoEmailLogin() {
         this.driver.navigate().to(this.signInPageUrl);
@@ -45,7 +45,7 @@ public class TestLoginpage extends BaseClient{
         this.signInPage.SignIn();
     }
 
-    // 4. Tests if create account button navigates to correct page
+    //  Tests if create account button navigates to correct page
     @Test
     public void NavigateCreateAccount() {
         this.driver.navigate().to(this.signInPageUrl);
@@ -54,7 +54,7 @@ public class TestLoginpage extends BaseClient{
         Assert.assertEquals(CAtitle, "Amazon Registration");
     }
 
-    //5. Tests successful login
+    // Tests successful login
     @Test
     public void SuccessfulLogin() {
         this.driver.navigate().to(this.signInPageUrl);
