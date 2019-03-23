@@ -55,12 +55,12 @@ public class TestLoginPage extends BaseClient{
         Assert.assertEquals(CAtitle, "Amazon Registration");
     }
 
-    //13. Tests successful login
+    //5. Tests successful login
     @Test
     public void SuccessfulLogin() {
         this.driver.navigate().to(this.signInPageUrl);
         this.signInPage.enterEmail("amirhafiz08@gmail.com");
-        this.signInPage.enterPwd("Youcantseeme1");
+        this.signInPage.enterPwd("root");
         this.signInPage.SignIn();
         String title = driver.getTitle();
         Assert.assertEquals(title, "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more");

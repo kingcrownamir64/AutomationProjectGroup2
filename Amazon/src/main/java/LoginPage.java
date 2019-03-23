@@ -34,4 +34,3 @@ public class LoginPage extends BaseClient{
         this.CreateAccountButton.click();
     }
 }
-
