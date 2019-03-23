@@ -26,10 +26,10 @@ import java.util.concurrent.TimeUnit;
 public class BaseClient {
 
     public static WebDriver driver = null;
-    public String browserstack_username= "prodipbhowmik1";
-    public String browserstack_accesskey = "zcsSyv1NSxppCq6E7TPT";
-    public String saucelabs_username = "pbhowmik";
-    public String saucelabs_accesskey = "dcd43ab5-1709-4f77-b2ce-5c9ba66054be";
+    public String browserstack_username= "kingcrownamir64";
+    public String browserstack_accesskey = "sDXA8um2kGacmu6uuzgD";
+    public String saucelabs_username = "amirhafiz08@gmail.com";
+    public String saucelabs_accesskey = "e1bba7f6-edbf-4a0f-b034-78f9dc7042fc";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod

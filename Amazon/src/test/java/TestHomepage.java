@@ -61,11 +61,11 @@ public class TestHomepage extends BaseClient{
 
     // 10. Check if Your Amazon button works & navigates to correct page
     //Purposely failed test to demonstrate a failed example. Can correct by changing expected title.
-    @Test
-    public void TestLanguageButton() {
-        // this.driver.navigate().to(this.homepageUrl);
-        this.homePage.setLanguageBar();
-        //String changeLanguage = driver.getTitle();
-        //Assert.assertEquals(changeLanguage, "Change Language Settings");
-    }
+//    @Test
+//    public void TestLanguageButton() {
+//        // this.driver.navigate().to(this.homepageUrl);
+//        this.homePage.setLanguageBar();
+//        //String changeLanguage = driver.getTitle();
+//        //Assert.assertEquals(changeLanguage, "Change Language Settings");
+//    }
 }
