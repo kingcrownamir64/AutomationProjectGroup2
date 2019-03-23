@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TestHomepage">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setup"/>
+          <include name="cleanup"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestHomepage -->
+      <class name="TestCreateAccountPage">
+        <methods>
+          <include name="EnterYourNameOnly"/>
+          <include name="EnterYourNameAndEmail"/>
+          <include name="initialize"/>
+          <include name="SuccessfulLogin"/>
+          <include name="setup"/>
+          <include name="EnterYourNameEmailPassword"/>
+          <include name="testUserCanNavigateToCreateAccountPage"/>
+          <include name="EnterYourEmailOnly"/>
+          <include name="cleanup"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- TestCreateAccountPage -->
+      <class name="TestAmazonFreshPage">
+        <methods>
+          <include name="testUserCanNavigateToBeveragesTab"/>
+          <include name="testUserCanNavigateToBakeryTab"/>
+          <include name="testUserCanNavigateToHouseholdHealthBeautyTab"/>
+          <include name="testUserCanNavigateToContactFreshTab"/>
+          <include name="testUserCanNavigateToFreshFruitTab"/>
+          <include name="testUserCanNavigateToFreshDealsButton"/>
+          <include name="testUserCanNavigateToLocalMarketTab"/>
+          <include name="testUserCanNavigateToGroceriesButton"/>
+          <include name="testUserCanNavigateToAmazonFreshPage"/>
+          <include name="testUserCanNavigateToDeliTab"/>
+          <include name="testUserCanNavigateToDairyTab"/>
+          <include name="testUserCanNavigateToPastPurchasesButton"/>
+        </methods>
+      </class> <!-- TestAmazonFreshPage -->
+      <class name="TestLoginpage">
+        <methods>
+          <include name="NoPasswordLogin"/>
+          <include name="initialize"/>
+          <include name="NoEmailLogin"/>
+          <include name="SuccessfulLogin"/>
+          <include name="NavigateCreateAccount"/>
+          <include name="setup"/>
+          <include name="NoCredentialLogin"/>
+        </methods>
+      </class> <!-- TestLoginpage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

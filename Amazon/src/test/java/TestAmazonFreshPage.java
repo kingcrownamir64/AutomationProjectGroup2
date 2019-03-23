@@ -2,6 +2,7 @@ import Utility.DataReader;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -21,7 +22,7 @@ public class TestAmazonFreshPage extends BaseClient  {
         Thread.sleep(8000);
     }
 
-    // 1. Tests if website is navigated to the homepage
+    //  Tests if website is navigated to the homepage
     @Test(priority = 1)
     public void testUserCanNavigateToAmazonFreshPage() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
@@ -30,7 +31,7 @@ public class TestAmazonFreshPage extends BaseClient  {
         Assert.assertEquals(AmazonfreshpageTitle, "Amazon.com: : AmazonFresh");
     }
 
-    // 2. Tests if website is navigated to dairy tab
+    //  Tests if website is navigated to dairy tab
     @Test(priority = 2)
     public void testUserCanNavigateToDairyTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
@@ -40,7 +41,7 @@ public class TestAmazonFreshPage extends BaseClient  {
         Assert.assertEquals(DairyTabTitle, "Amazon.com: Dairy, Cheese & Eggs - Grocery & Gourmet Food: AmazonFresh");
     }
 
-    // 3. Tests if website is navigated to deli tab
+    //  Tests if website is navigated to deli tab
     @Test(priority = 3)
     public void testUserCanNavigateToDeliTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
@@ -50,7 +51,7 @@ public class TestAmazonFreshPage extends BaseClient  {
         Assert.assertEquals(DeliTabTitle, "Amazon.com: Deli - Grocery & Gourmet Food: AmazonFresh");
     }
 
-    // 4. Tests if website is navigated to bakery tab
+    //  Tests if website is navigated to bakery tab
     @Test(priority = 4)
     public void testUserCanNavigateToBakeryTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
@@ -60,7 +61,7 @@ public class TestAmazonFreshPage extends BaseClient  {
         Assert.assertEquals(BakeryTabTitle, "Amazon.com: Breads & Bakery - Grocery & Gourmet Food: AmazonFresh");
     }
 
-    // 5. Tests if website is navigated to fresh fruit tab
+    //  Tests if website is navigated to fresh fruit tab
     @Test(priority = 5)
     public void testUserCanNavigateToFreshFruitTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
@@ -70,7 +71,7 @@ public class TestAmazonFreshPage extends BaseClient  {
         Assert.assertEquals(FreshFruitTabTitle, "Amazon.com: Fresh Fruits - Produce: AmazonFresh");
     }
 
-    // 6. Tests if website is navigated to meal kit tab
+    //  Tests if website is navigated to meal kit tab
     @Test(priority = 6)
     public void testUserCanNavigateToContactFreshTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
@@ -80,13 +81,11 @@ public class TestAmazonFreshPage extends BaseClient  {
         Assert.assertEquals(MealKitTitle, "Amazon Sign In");
     }
 
-    // 7. Tests if website is navigated to beverages tab
+    //  Tests if website is navigated to beverages tab
     @Test(priority = 7)
     public void testUserCanNavigateToPastPurchasesButton() {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage.SetPastPurchasesButton();
-//        String BeveragesTitle = driver.getTitle();
-//        Assert.assertEquals(BeveragesTitle, "Amazon.com: Beverages - Grocery & Gourmet Food: AmazonFresh");
     }
 
     @Test(priority = 8)
@@ -132,6 +131,11 @@ public class TestAmazonFreshPage extends BaseClient  {
         Thread.sleep(8000);
         String BeveragesTitle = driver.getTitle();
         Assert.assertEquals(BeveragesTitle, "Amazon.com: Local Market - Grocery & Gourmet Food: AmazonFresh");
+    }
+
+    @AfterClass
+    public void cleanUp() {
+        this.driver.quit();
     }
 
 }
