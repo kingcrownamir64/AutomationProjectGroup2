@@ -12,6 +12,7 @@
         <module>Common</module>
         <module>Amazon</module>
         <module>Costco</module>
+        <module>EBay</module>
     </modules>
 
     <dependencyManagement>
