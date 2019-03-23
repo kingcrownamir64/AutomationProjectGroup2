@@ -136,7 +136,7 @@ public class TestHomepage extends BaseClient {
                         throw new InvalidArgumentException("Invalid Choice you harami");
                 }
 
-                Thread.sleep(2000);
+                Thread.sleep(3000);
             }
         } catch (NullPointerException nm) {
             System.out.println("Nothing is in the list");
