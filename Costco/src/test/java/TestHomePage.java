@@ -81,6 +81,4 @@ public class TestHomePage extends BaseClient {
         this.homePage.inputInSearchBox("cereal");
         this.homePage.clickSearchButton();
     }
-
-
 }

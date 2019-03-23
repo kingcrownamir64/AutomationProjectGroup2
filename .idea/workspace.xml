@@ -2,29 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="052a508a-f602-44ca-bf5e-df4e5e0ded4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/CreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/CreateAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/Resources/ExcelFile.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/Resources/ExcelFile.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestAmazonFreshPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestAmazonFreshPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/TestLoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/Secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/Secret.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/BaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/BaseClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/src/main/java/MembershipPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/java/MembershipPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/src/main/java/PharmacyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/java/PharmacyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/src/main/java/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/java/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/src/main/java/ServicePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/java/ServicePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/src/main/java/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/java/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/classes/LocationsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/LocationsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/classes/MembershipPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/MembershipPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/classes/PharmacyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/PharmacyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/classes/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/classes/ServicePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/ServicePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/classes/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/SignInPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/practiceautomation/target/" />
     <ignored path="$PROJECT_DIR$/Amazon/target/" />
+    <ignored path="$PROJECT_DIR$/Costco/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +27,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#1282#1283#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Costco/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestPharmacyPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,6 +144,8 @@
         <option value="$PROJECT_DIR$/Costco/src/main/java/ServicePage.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/SignInPage.java" />
         <option value="$PROJECT_DIR$/Common/src/Secret.properties" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java" />
       </list>
     </option>
   </component>
@@ -106,22 +161,21 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Amazon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Costco" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Amazon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Costco" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="129" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1230" />
-    <option name="height" value="822" />
+    <option name="width" value="935" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,50 +193,54 @@
             <path>
               <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="SQLDriver" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553370518109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553380803266" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -211,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestLoginpage.SuccessfulLogin">
+  <component name="RunManager" selected="TestNG.TestLocationsPage.testViewMoreLocations">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="AutomationProject" />
       <option name="VM_PARAMETERS" />
@@ -263,29 +321,28 @@
       <module name="Costco" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHomePage" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomepage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
+    <configuration name="TestLocationsPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Costco" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHomepage" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="TestLocationsPage" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLoginpage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
+    <configuration name="TestLocationsPage.testViewMoreLocations" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Costco" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLoginpage" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="TestLocationsPage" />
+      <option name="METHOD_NAME" value="testViewMoreLocations" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -316,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestLocationsPage.testViewMoreLocations" />
+        <item itemvalue="TestNG.TestLocationsPage" />
         <item itemvalue="TestNG.TestLoginpage.SuccessfulLogin" />
         <item itemvalue="TestNG.&lt;default&gt; (1)" />
         <item itemvalue="TestNG.TestHomePage" />
-        <item itemvalue="TestNG.TestLoginpage" />
-        <item itemvalue="TestNG.TestHomepage" />
       </list>
     </recent_temporary>
   </component>
@@ -338,15 +395,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 13h 58m 15s.xml">
-      <configuration name="TestAmazonFreshPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 14h 02m 13s.xml">
-      <configuration name="TestAmazonFreshPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCreateAccountPage - 2019.03.23 at 14h 05m 18s.xml">
-      <configuration name="TestCreateAccountPage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_default_ - 2019.03.23 at 14h 09m 48s.xml">
       <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
@@ -368,6 +416,15 @@
     <history-entry file="TestLoginpage_SuccessfulLogin - 2019.03.23 at 15h 18m 36s.xml">
       <configuration name="TestLoginpage.SuccessfulLogin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestLocationsPage - 2019.03.23 at 15h 57m 13s.xml">
+      <configuration name="TestLocationsPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestLocationsPage_testViewMoreLocations - 2019.03.23 at 15h 58m 06s.xml">
+      <configuration name="TestLocationsPage.testViewMoreLocations" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestLocationsPage_testViewMoreLocations - 2019.03.23 at 15h 59m 43s.xml">
+      <configuration name="TestLocationsPage.testViewMoreLocations" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,9 +436,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="23" width="935" height="726" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16309012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2743561" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -390,7 +448,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49036145" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04731861" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,12 +456,12 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.30963856" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32771084" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32649842" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.021459227" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.24076147" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -438,7 +496,7 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Common/Common.iml" />
+    <entry file="file://$PROJECT_DIR$/common/common.iml" />
     <entry file="file://$PROJECT_DIR$/common/src/main/java/Utility/DataReader" />
     <entry file="file://$PROJECT_DIR$/Common/src/main/java/Databases/User.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -483,13 +541,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestLogin.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -498,13 +549,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/Resources/AmazonRunner.xml.xsl" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.7/testng-6.8.7.jar!/org/testng/TestNG.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -533,7 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/amazon/selenium/common/1.0-SNAPSHOT/common-1.0-SNAPSHOT.jar!/Utility/DataReader.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazon/selenium/Common/1.0-SNAPSHOT/Common-1.0-SNAPSHOT.jar!/Utility/DataReader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-485">
           <caret line="60" column="65" lean-forward="true" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
@@ -551,23 +596,10 @@
     <entry file="file://$PROJECT_DIR$/AutomationProject.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Common/src/main/java/Utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/BaseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -644,28 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/main/java/MembershipPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -717,6 +727,96 @@
           <caret line="2" column="78" selection-start-line="2" selection-start-column="78" selection-end-line="2" selection-end-column="78" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/BaseClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4882">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestMembershipClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestRegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestServicePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-553">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestSignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestLocationsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/LocationsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestPharmacyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

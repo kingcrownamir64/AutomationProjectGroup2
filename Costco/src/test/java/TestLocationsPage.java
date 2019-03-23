@@ -34,5 +34,4 @@ public class TestLocationsPage extends BaseClient {
         this.driver.navigate().to(this.LocationsPageUrl);
         this.locationsPage.clickViewMoreLocations();
     }
-
 }
