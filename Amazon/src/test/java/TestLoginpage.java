@@ -4,7 +4,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class TestLoginPage extends BaseClient{
+public class TestLoginpage extends BaseClient{
 
     String signInPageUrl = "https://amazon.com/ap/signin?ie=UTF8&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.mode=checkid_setup&_encoding=UTF8&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&switch_account=signin&ignoreAuthState=1&disableLoginPrepopulate=1&ref_=ap_sw_aa";
     LoginPage signInPage;
@@ -18,12 +18,6 @@ public class TestLoginPage extends BaseClient{
         this.driver.navigate().to(this.signInPageUrl);
     }
 
-<<<<<<< HEAD
-
-    // 1. Tests if user can login without a password
-=======
-    //  Tests if user can login without a password
->>>>>>> b83882e26cd1ddcbf73f46815f42fb029b30da4d
     @Test
     public void NoPasswordLogin() {
         this.driver.navigate().to(this.signInPageUrl);
