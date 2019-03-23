@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="052a508a-f602-44ca-bf5e-df4e5e0ded4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Amazon/src/main/java/AmazonFreshPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestAmazonFreshPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/AmazonFreshPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/AmazonFreshPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestAmazonFreshPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestAmazonFreshPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/AmazonFreshPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/AmazonFreshPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestAmazonFreshPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/TestAmazonFreshPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestHomepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/TestHomepage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/BaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/BaseClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/Utility/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/DataReader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,23 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="138" column="35" lean-forward="true" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="261">
+              <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="-132">
               <caret line="17" column="54" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +62,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/DataReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="29" />
+            <state relative-caret-position="-18">
+              <caret line="80" column="45" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,20 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/AmazonFreshPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="66" column="34" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestAmazonFreshPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="79">
+              <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,10 +95,78 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestAmazonFreshPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/BaseClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5336#5337#0" expanded="true" />
+                <element signature="e#5366#5367#0" expanded="true" />
+                <element signature="e#5436#5437#0" expanded="true" />
+                <element signature="e#5511#5512#0" expanded="true" />
+                <element signature="e#5569#5570#0" expanded="true" />
+                <element signature="e#5635#5636#0" expanded="true" />
+                <element signature="e#8206#8207#0" expanded="true" />
+                <element signature="e#8264#8265#0" expanded="true" />
+                <element signature="e#8298#8299#0" expanded="true" />
+                <element signature="e#8338#8339#0" expanded="true" />
+                <element signature="e#9262#9263#0" expanded="true" />
+                <element signature="e#9329#9330#0" expanded="true" />
+                <element signature="e#10416#10417#0" expanded="true" />
+                <element signature="e#10477#10478#0" expanded="true" />
+                <element signature="e#10536#10537#0" expanded="true" />
+                <element signature="e#10611#10612#0" expanded="true" />
+                <element signature="e#10824#10825#0" expanded="true" />
+                <element signature="e#10893#10894#0" expanded="true" />
+                <element signature="e#10942#10943#0" expanded="true" />
+                <element signature="e#11022#11023#0" expanded="true" />
+                <element signature="e#11073#11074#0" expanded="true" />
+                <element signature="e#11140#11141#0" expanded="true" />
+                <element signature="e#11259#11271#0" expanded="true" />
+                <element signature="e#11475#11487#0" expanded="true" />
+                <element signature="e#11532#11540#0" expanded="true" />
+                <element signature="e#11892#11904#0" expanded="true" />
+                <element signature="e#11949#11957#0" expanded="true" />
+                <element signature="e#12295#12307#0" expanded="true" />
+                <element signature="e#12543#12555#0" expanded="true" />
+                <element signature="e#12767#12779#0" expanded="true" />
+                <element signature="e#13012#13013#0" expanded="true" />
+                <element signature="e#13055#13056#0" expanded="true" />
+                <element signature="e#13400#13401#0" expanded="true" />
+                <element signature="e#13467#13468#0" expanded="true" />
+                <element signature="e#13721#13729#0" expanded="true" />
+                <element signature="e#15582#15583#0" expanded="true" />
+                <element signature="e#15630#15631#0" expanded="true" />
+                <element signature="e#15670#15671#0" expanded="true" />
+                <element signature="e#15720#15721#0" expanded="true" />
+                <element signature="e#17044#17045#0" expanded="true" />
+                <element signature="e#17111#17112#0" expanded="true" />
+                <element signature="e#17156#17157#0" expanded="true" />
+                <element signature="e#17236#17237#0" expanded="true" />
+                <element signature="e#17420#17428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccountPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="315">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,9 +232,11 @@
         <option value="$PROJECT_DIR$/Amazon/src/test/Resources/AmazonRunner.xml.xsl" />
         <option value="$PROJECT_DIR$/Amazon/src/test/Resources/AmazonRunner.xml" />
         <option value="$PROJECT_DIR$/Common/src/main/java/Utility/DataReader.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/BaseClient.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/AmazonFreshPage.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestAmazonFreshPage.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/DataReader.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java" />
       </list>
     </option>
   </component>
@@ -209,11 +263,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
-    <option name="y" value="23" />
-    <option name="width" value="1318" />
-    <option name="height" value="823" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="512" />
+    <option name="width" value="928" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -269,6 +322,40 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -278,13 +365,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553331542691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553366356239" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Amazon/src/test/Resources" />
       <recent name="$PROJECT_DIR$/common/SQLDriver" />
@@ -303,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestAmazonFreshPage">
+  <component name="RunManager" selected="TestNG.TestHomepage.selectsteps">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="AutomationProject" />
       <option name="VM_PARAMETERS" />
@@ -362,11 +452,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAmazonFreshPage.testUserCanNavigateToAmazonFreshPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAmazonFreshPage.testUserCanNavigateToDairyTab" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestAmazonFreshPage" />
-      <option name="METHOD_NAME" value="testUserCanNavigateToAmazonFreshPage" />
+      <option name="METHOD_NAME" value="testUserCanNavigateToDairyTab" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -374,24 +464,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAmazonFreshPage.testUserCanNavigateToBeveragesTab" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCreateAccountPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestAmazonFreshPage" />
-      <option name="METHOD_NAME" value="testUserCanNavigateToBeveragesTab" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAmazonFreshPage.testUserCanNavigateToLocalMarketTab" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestAmazonFreshPage" />
-      <option name="METHOD_NAME" value="testUserCanNavigateToLocalMarketTab" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="TestCreateAccountPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -410,13 +487,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestAmazonFreshPage" />
-        <item itemvalue="TestNG.TestAmazonFreshPage.testUserCanNavigateToLocalMarketTab" />
-        <item itemvalue="TestNG.TestAmazonFreshPage.testUserCanNavigateToAmazonFreshPage" />
-        <item itemvalue="TestNG.TestAmazonFreshPage.testUserCanNavigateToBeveragesTab" />
         <item itemvalue="TestNG.TestHomepage.selectsteps" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.TestCreateAccountPage" />
+        <item itemvalue="TestNG.TestAmazonFreshPage" />
+        <item itemvalue="TestNG.TestAmazonFreshPage.testUserCanNavigateToDairyTab" />
       </list>
     </recent_temporary>
   </component>
@@ -434,35 +521,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 04h 34m 48s.xml">
+    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 13h 42m 12s.xml">
       <configuration name="TestAmazonFreshPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAmazonFreshPage_testUserCanNavigateToBeveragesTab - 2019.03.23 at 04h 37m 47s.xml">
-      <configuration name="TestAmazonFreshPage.testUserCanNavigateToBeveragesTab" configurationId="TestNG" />
+    <history-entry file="TestAmazonFreshPage_testUserCanNavigateToDairyTab - 2019.03.23 at 13h 45m 31s.xml">
+      <configuration name="TestAmazonFreshPage.testUserCanNavigateToDairyTab" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 04h 42m 17s.xml">
+    <history-entry file="TestAmazonFreshPage_testUserCanNavigateToDairyTab - 2019.03.23 at 13h 48m 01s.xml">
+      <configuration name="TestAmazonFreshPage.testUserCanNavigateToDairyTab" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 13h 50m 04s.xml">
       <configuration name="TestAmazonFreshPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 04h 45m 20s.xml">
+    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 13h 58m 15s.xml">
       <configuration name="TestAmazonFreshPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 04h 49m 31s.xml">
+    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 14h 02m 13s.xml">
       <configuration name="TestAmazonFreshPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAmazonFreshPage_testUserCanNavigateToAmazonFreshPage - 2019.03.23 at 04h 50m 19s.xml">
-      <configuration name="TestAmazonFreshPage.testUserCanNavigateToAmazonFreshPage" configurationId="TestNG" />
+    <history-entry file="TestCreateAccountPage - 2019.03.23 at 14h 05m 18s.xml">
+      <configuration name="TestCreateAccountPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 04h 52m 28s.xml">
-      <configuration name="TestAmazonFreshPage" configurationId="TestNG" />
+    <history-entry file="_default_ - 2019.03.23 at 14h 09m 48s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 04h 54m 55s.xml">
-      <configuration name="TestAmazonFreshPage" configurationId="TestNG" />
+    <history-entry file="TestHomepage_selectsteps - 2019.03.23 at 14h 24m 01s.xml">
+      <configuration name="TestHomepage.selectsteps" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAmazonFreshPage_testUserCanNavigateToLocalMarketTab - 2019.03.23 at 04h 55m 29s.xml">
-      <configuration name="TestAmazonFreshPage.testUserCanNavigateToLocalMarketTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAmazonFreshPage - 2019.03.23 at 04h 57m 42s.xml">
-      <configuration name="TestAmazonFreshPage" configurationId="TestNG" />
+    <history-entry file="TestHomepage_selectsteps - 2019.03.23 at 14h 31m 05s.xml">
+      <configuration name="TestHomepage.selectsteps" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -475,9 +562,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="849" height="900" extended-state="6" />
+    <frame x="512" y="0" width="928" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3519207" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25733635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -499,7 +587,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.03717472" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.033860046" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -535,18 +623,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Common/Common.iml" />
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/BaseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/Utility/DataReader" />
     <entry file="file://$PROJECT_DIR$/Common/src/main/java/Databases/User.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -665,16 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/Utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="82" column="45" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/CreateAccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -685,29 +751,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccountPage.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/BaseClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="64">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5336#5337#0" expanded="true" />
+            <element signature="e#5366#5367#0" expanded="true" />
+            <element signature="e#5436#5437#0" expanded="true" />
+            <element signature="e#5511#5512#0" expanded="true" />
+            <element signature="e#5569#5570#0" expanded="true" />
+            <element signature="e#5635#5636#0" expanded="true" />
+            <element signature="e#8206#8207#0" expanded="true" />
+            <element signature="e#8264#8265#0" expanded="true" />
+            <element signature="e#8298#8299#0" expanded="true" />
+            <element signature="e#8338#8339#0" expanded="true" />
+            <element signature="e#9262#9263#0" expanded="true" />
+            <element signature="e#9329#9330#0" expanded="true" />
+            <element signature="e#10416#10417#0" expanded="true" />
+            <element signature="e#10477#10478#0" expanded="true" />
+            <element signature="e#10536#10537#0" expanded="true" />
+            <element signature="e#10611#10612#0" expanded="true" />
+            <element signature="e#10824#10825#0" expanded="true" />
+            <element signature="e#10893#10894#0" expanded="true" />
+            <element signature="e#10942#10943#0" expanded="true" />
+            <element signature="e#11022#11023#0" expanded="true" />
+            <element signature="e#11073#11074#0" expanded="true" />
+            <element signature="e#11140#11141#0" expanded="true" />
+            <element signature="e#11259#11271#0" expanded="true" />
+            <element signature="e#11475#11487#0" expanded="true" />
+            <element signature="e#11532#11540#0" expanded="true" />
+            <element signature="e#11892#11904#0" expanded="true" />
+            <element signature="e#11949#11957#0" expanded="true" />
+            <element signature="e#12295#12307#0" expanded="true" />
+            <element signature="e#12543#12555#0" expanded="true" />
+            <element signature="e#12767#12779#0" expanded="true" />
+            <element signature="e#13012#13013#0" expanded="true" />
+            <element signature="e#13055#13056#0" expanded="true" />
+            <element signature="e#13400#13401#0" expanded="true" />
+            <element signature="e#13467#13468#0" expanded="true" />
+            <element signature="e#13721#13729#0" expanded="true" />
+            <element signature="e#15582#15583#0" expanded="true" />
+            <element signature="e#15630#15631#0" expanded="true" />
+            <element signature="e#15670#15671#0" expanded="true" />
+            <element signature="e#15720#15721#0" expanded="true" />
+            <element signature="e#17044#17045#0" expanded="true" />
+            <element signature="e#17111#17112#0" expanded="true" />
+            <element signature="e#17156#17157#0" expanded="true" />
+            <element signature="e#17236#17237#0" expanded="true" />
+            <element signature="e#17420#17428#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestLoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="-132">
           <caret line="17" column="54" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -717,18 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/AmazonFreshPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="66" column="34" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="138" column="35" lean-forward="true" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="35" />
+        <state relative-caret-position="79">
+          <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -737,8 +827,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestAmazonFreshPage.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomepage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

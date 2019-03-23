@@ -5,22 +5,22 @@ import org.openqa.selenium.support.FindBy;
 public class AmazonFreshPage extends BaseClient {
 
 
-    @FindBy(id = "a-autoid-0-announce")
+    @FindBy(xpath = "//*[@id=\"postLeft\"]/div[5]/ul[2]/li[3]/a")
     private WebElement DairyButton;
 
-    @FindBy(id = "a-autoid-1-announce")
+    @FindBy(xpath = "//*[@id=\"postLeft\"]/div[5]/ul[2]/li[6]/a")
     private WebElement DeliButton;
 
-    @FindBy(id = "a-autoid-2-announce")
+    @FindBy(xpath = "//*[@id=\"postLeft\"]/div[5]/ul[2]/li[5]/a")
     private WebElement BakeryButton;
 
-    @FindBy(id = "a-autoid-3-announce")
+    @FindBy(xpath = "//*[@id=\"postLeft\"]/div[5]/ul[1]/li[1]/a")
     private WebElement FreshFruitButton;
 
-    @FindBy(id = "a-autoid-4-announce")
-    private WebElement MealKitButton;
+    @FindBy(xpath = "//*[@id=\"postLeft\"]/div[1]/ul/li[2]/a")
+    private WebElement ContactFreshButton;
 
-    @FindBy(id = "a-autoid-5-announce")
+    @FindBy(xpath = "//*[@id=\"postLeft\"]/div[7]/ul[2]/li[1]/a")
     private WebElement BeveragesButton;
 
     @FindBy(xpath = "//*[@id=\"nav-subnav\"]/a[2]")
@@ -52,7 +52,7 @@ public class AmazonFreshPage extends BaseClient {
     public void SetFreshFruitButton() { this.FreshFruitButton.click();
     }
 
-    public void SetMealKitButton() { this.MealKitButton.click();
+    public void SetContactFreshButton() { this.ContactFreshButton.click();
     }
 
     public void SetBeveragesButton() { this.BeveragesButton.click();

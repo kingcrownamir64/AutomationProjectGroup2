@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 public class TestAmazonFreshPage extends BaseClient  {
 
 
-    String AmazonFreshPageURL = "https://www.amazon.com/gp/browse.html?node=10329849011&ref_=nav_em_T1_0_4_3_1__afs_aaf";
+    String AmazonFreshPageURL = "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011";
     AmazonFreshPage Amazonfreshpage;
 
     /**
      * Will navigate to the url before running all tests
      */
     @BeforeClass
-    public void initialize() throws InterruptedException {
+    public void initialize() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage = PageFactory.initElements(this.driver, AmazonFreshPage.class);
         this.driver.navigate().to(this.AmazonFreshPageURL);
@@ -26,7 +26,7 @@ public class TestAmazonFreshPage extends BaseClient  {
 
     // 1. Tests if website is navigated to the homepage
     @Test(priority = 1)
-    public void testUserCanNavigateToAmazonFreshPage() throws InterruptedException {
+    public void testUserCanNavigateToAmazonFreshPage() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         Thread.sleep(8000);
         String AmazonfreshpageTitle = driver.getTitle();
@@ -36,7 +36,7 @@ public class TestAmazonFreshPage extends BaseClient  {
 
     // 2. Tests if website is navigated to dairy tab
     @Test(priority = 2)
-    public void testUserCanNavigateToDairyTab() throws InterruptedException {
+    public void testUserCanNavigateToDairyTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage.SetDairyButton();
         Thread.sleep(8000);
@@ -47,7 +47,7 @@ public class TestAmazonFreshPage extends BaseClient  {
 
     // 3. Tests if website is navigated to deli tab
     @Test(priority = 3)
-    public void testUserCanNavigateToDeliTab() throws InterruptedException {
+    public void testUserCanNavigateToDeliTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage.SetDeliButton();
         Thread.sleep(8000);
@@ -57,7 +57,7 @@ public class TestAmazonFreshPage extends BaseClient  {
 
     // 4. Tests if website is navigated to bakery tab
     @Test(priority = 4)
-    public void testUserCanNavigateToBakeryTab() throws InterruptedException {
+    public void testUserCanNavigateToBakeryTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage.SetBakeryButton();
         Thread.sleep(8000);
@@ -67,7 +67,7 @@ public class TestAmazonFreshPage extends BaseClient  {
 
     // 5. Tests if website is navigated to fresh fruit tab
     @Test(priority = 5)
-    public void testUserCanNavigateToFreshFruitTab() throws InterruptedException {
+    public void testUserCanNavigateToFreshFruitTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage.SetFreshFruitButton();
         Thread.sleep(8000);
@@ -77,12 +77,12 @@ public class TestAmazonFreshPage extends BaseClient  {
 
     // 6. Tests if website is navigated to meal kit tab
     @Test(priority = 6)
-    public void testUserCanNavigateToMealKitTab() throws InterruptedException {
+    public void testUserCanNavigateToContactFreshTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
-        this.Amazonfreshpage.SetMealKitButton();
+        this.Amazonfreshpage.SetContactFreshButton();
         Thread.sleep(8000);
         String MealKitTitle = driver.getTitle();
-        Assert.assertEquals(MealKitTitle, "Amazon.com: Fresh Meal Kits - Grocery & Gourmet Food: AmazonFresh");
+        Assert.assertEquals(MealKitTitle, "Amazon Sign In");
     }
 
     // 7. Tests if website is navigated to beverages tab
@@ -95,7 +95,7 @@ public class TestAmazonFreshPage extends BaseClient  {
     }
 
     @Test(priority = 8)
-    public void testUserCanNavigateToFreshDealsButton() throws InterruptedException {
+    public void testUserCanNavigateToFreshDealsButton() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage.SetFreshDealsButton();
         Thread.sleep(8000);
@@ -104,7 +104,7 @@ public class TestAmazonFreshPage extends BaseClient  {
     }
 
     @Test(priority = 9)
-    public void testUserCanNavigateToGroceriesButton() throws InterruptedException {
+    public void testUserCanNavigateToGroceriesButton() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage.SetGroceriesButton();
         Thread.sleep(8000);
@@ -113,7 +113,7 @@ public class TestAmazonFreshPage extends BaseClient  {
     }
 
     @Test(priority = 10)
-    public void testUserCanNavigateToBeveragesTab() throws InterruptedException {
+    public void testUserCanNavigateToBeveragesTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage.SetBeveragesButton();
         Thread.sleep(8000);
@@ -122,7 +122,7 @@ public class TestAmazonFreshPage extends BaseClient  {
     }
 
     @Test(priority = 11)
-    public void testUserCanNavigateToHouseholdHealthBeautyTab() throws InterruptedException {
+    public void testUserCanNavigateToHouseholdHealthBeautyTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage.SetHouseholdHealthBeautyButton();
         Thread.sleep(8000);
@@ -131,7 +131,7 @@ public class TestAmazonFreshPage extends BaseClient  {
     }
 
     @Test(priority = 12)
-    public void testUserCanNavigateToLocalMarketTab() throws InterruptedException {
+    public void testUserCanNavigateToLocalMarketTab() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage.SetLocalMarketButton();
         Thread.sleep(8000);

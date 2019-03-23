@@ -69,13 +69,13 @@ public class TestHomepage extends BaseClient {
 
     // 6. Check if Your Amazon button works & navigates to correct page
     //Purposely failed test to demonstrate a failed example. Can correct by changing expected title.
-    @Test
-    public void TestLanguageButton() {
-        // this.driver.navigate().to(this.homepageUrl);
-        this.homePage.setLanguageBar();
-        //String changeLanguage = driver.getTitle();
-        //Assert.assertEquals(changeLanguage, "Change Language Settings");
-    }
+//    @Test
+//    public void TestLanguageButton() {
+//        // this.driver.navigate().to(this.homepageUrl);
+//        this.homePage.setLanguageBar();
+//        //String changeLanguage = driver.getTitle();
+//        //Assert.assertEquals(changeLanguage, "Change Language Settings");
+//    }
 
     // 7. Check if amazon menu button opens
     @Test
@@ -94,11 +94,11 @@ public class TestHomepage extends BaseClient {
     }
 
     //9. Check if drop down Account and List menu works
-    @Test
-    public void TestAccountAndListDropDownMenu() throws Exception {
-        this.driver.navigate().to(this.homepageUrl);
-        this.homePage.setAccountAndListDropDownMenu();
-    }
+//    @Test
+//    public void TestAccountAndListDropDownMenu() throws Exception {
+//        this.driver.navigate().to(this.homepageUrl);
+//        this.homePage.setAccountAndListDropDownMenu();
+//    }
 
     //10. Check if orders button navigates
     @Test
@@ -122,25 +122,20 @@ public class TestHomepage extends BaseClient {
     public void selectsteps() throws IOException, NullPointerException, InterruptedException {
         String[]  testSteps = excelData.fileReader2(path,0);
 
-        try {
-            for (int i = 0; i < testSteps.length; ++i) {
-                switch (testSteps[i]) {
-                    case "search":
-                        testSearchBar();
-                        break;
+        for (String str : testSteps){
 
-                    case "navigate":
-                        TestCartButton();
-                        break;
-                    default:
+                if (str.equalsIgnoreCase("search")) {
+                    testSearchBar();
+                }
+            else if (str.equalsIgnoreCase("navigate")) {
+                    TestCartButton();
+                }
+                  else{
                         throw new InvalidArgumentException("Invalid Choice you harami");
                 }
 
                 Thread.sleep(3000);
             }
-        } catch (NullPointerException nm) {
-            System.out.println("Nothing is in the list");
-        }
 
 
     }
