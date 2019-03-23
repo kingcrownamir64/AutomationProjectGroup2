@@ -18,7 +18,6 @@ public class TestLoginpage extends BaseClient{
         this.driver.navigate().to(this.signInPageUrl);
     }
 
-
     // 1. Tests if user can login without a password
     @Test
     public void NoPasswordLogin() {
@@ -55,11 +54,7 @@ public class TestLoginpage extends BaseClient{
         Assert.assertEquals(CAtitle, "Amazon Registration");
     }
 
-
-    //13. Tests successful login
-
     //5. Tests successful login
-
     @Test
     public void SuccessfulLogin() {
         this.driver.navigate().to(this.signInPageUrl);

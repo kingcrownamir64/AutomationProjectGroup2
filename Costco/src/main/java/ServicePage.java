@@ -28,6 +28,7 @@ public class ServicePage extends BaseClient {
     @FindBy (xpath = "//*[@id=\"rs-intermedia-video-modal\"]/div/div/div[1]/button/span")
     private WebElement xButton;
 
+
     public void ClickHomeTab()throws Exception{
         this.homeTab.click();
         Thread.sleep(2000);

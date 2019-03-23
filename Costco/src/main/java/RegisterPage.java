@@ -21,6 +21,7 @@ public class RegisterPage extends BaseClient {
     @FindBy (css = "#buy-membership-button")
     private WebElement buyMembershipID;
 
+
     public void enterEmail(String text) throws Exception{
         this.emailBar.sendKeys(text);
         Thread.sleep(2000);

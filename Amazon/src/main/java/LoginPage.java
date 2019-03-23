@@ -16,8 +16,6 @@ public class LoginPage extends BaseClient{
     private WebElement CreateAccountButton;
 
 
-
-
     public void enterEmail(String text) {
         this.EmailBox.sendKeys(text);
     }

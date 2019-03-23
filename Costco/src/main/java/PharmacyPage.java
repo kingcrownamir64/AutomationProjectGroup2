@@ -31,6 +31,7 @@ public class PharmacyPage extends BaseClient{
     @FindBy (xpath = "//*[@id=\"hero-carousel\"]/button[1]")
     private WebElement prevImage;
 
+
     public void clickImmunizationLink()throws Exception{
         this.immunizationLink.click();
         Thread.sleep(2000);

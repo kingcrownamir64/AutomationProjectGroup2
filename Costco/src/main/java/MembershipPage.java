@@ -25,6 +25,7 @@ public class MembershipPage extends BaseClient{
     @FindBy(xpath = "//*[@id=\"costcoModal\"]/div/div/div[3]/div[1]/div[1]/button")
     WebElement removeBtn;
 
+
     public void clickWhyBecomeMember()throws Exception{
         this.whyBecomeMember.click();
         Thread.sleep(2000);

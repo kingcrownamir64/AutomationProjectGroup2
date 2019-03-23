@@ -10,9 +10,8 @@ public class TestHomepage extends BaseClient{
     String homepageUrl = "https://www.amazon.com/ref=ap_frn_logo";
     HomePage homePage;
 
-    /**
-     * Will navigate to the url before running all tests
-     */
+    //  Will navigate to the url before running all tests
+
     @BeforeClass
     public void initialize() {
         this.driver.navigate().to(this.homepageUrl);
@@ -26,6 +25,7 @@ public class TestHomepage extends BaseClient{
         String homepageTitle = driver.getTitle();
         Assert.assertEquals(homepageTitle, "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more");
     }
+
     // 6. Tests if user can use search bar
     @Test
     public void testSearchBar() {

@@ -12,6 +12,7 @@ public class LocationsPage extends BaseClient {
     @FindBy (css = ".tertiary")
     private WebElement viewMoreLocations;
 
+
     public void searchLocationsZipCode(String text){
         this.searchLocation.sendKeys(text);
     }

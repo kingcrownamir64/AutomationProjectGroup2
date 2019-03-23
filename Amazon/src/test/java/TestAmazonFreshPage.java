@@ -11,18 +11,15 @@ public class TestAmazonFreshPage extends BaseClient  {
     String AmazonFreshPageURL = "https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011";
     AmazonFreshPage Amazonfreshpage;
 
-    /**
-     * Will navigate to the url before running all tests
-     */
+    //  Will navigate to the url before running all tests
+
     @BeforeClass
     public void initialize() throws Exception {
         this.driver.navigate().to(this.AmazonFreshPageURL);
         this.Amazonfreshpage = PageFactory.initElements(this.driver, AmazonFreshPage.class);
         this.driver.navigate().to(this.AmazonFreshPageURL);
         Thread.sleep(8000);
-
     }
-
 
     // 1. Tests if website is navigated to the homepage
     @Test(priority = 1)
@@ -33,7 +30,6 @@ public class TestAmazonFreshPage extends BaseClient  {
         Assert.assertEquals(AmazonfreshpageTitle, "Amazon.com: : AmazonFresh");
     }
 
-
     // 2. Tests if website is navigated to dairy tab
     @Test(priority = 2)
     public void testUserCanNavigateToDairyTab() throws Exception {
@@ -43,7 +39,6 @@ public class TestAmazonFreshPage extends BaseClient  {
         String DairyTabTitle = driver.getTitle();
         Assert.assertEquals(DairyTabTitle, "Amazon.com: Dairy, Cheese & Eggs - Grocery & Gourmet Food: AmazonFresh");
     }
-
 
     // 3. Tests if website is navigated to deli tab
     @Test(priority = 3)
@@ -138,7 +133,5 @@ public class TestAmazonFreshPage extends BaseClient  {
         String BeveragesTitle = driver.getTitle();
         Assert.assertEquals(BeveragesTitle, "Amazon.com: Local Market - Grocery & Gourmet Food: AmazonFresh");
     }
-
-
 
 }

@@ -23,6 +23,7 @@ public class CreateAccountPage extends BaseClient {
     @FindBy(css = ".a-alert-content")
     private WebElement PasswordMustMatchAlert;
 
+
     public void EnterYourName(String text) throws InterruptedException {
         this.YourNameBox.sendKeys(text);
         Thread.sleep(2000);

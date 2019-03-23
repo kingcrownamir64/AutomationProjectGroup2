@@ -14,7 +14,6 @@ public class HomePage extends BaseClient {
     @FindBy(id = "nav-cart")
     private WebElement cartButton;
 
-
     @FindBy(id="nav-your-amazon")
     private WebElement YourAmazonButton;
 

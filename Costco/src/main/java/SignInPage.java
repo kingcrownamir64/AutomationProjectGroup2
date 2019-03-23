@@ -15,6 +15,7 @@ public class SignInPage extends BaseClient {
     @FindBy(xpath = "//*[@id=\"LogonForm\"]/fieldset/div[6]/a")
     private WebElement forgotPassword;
 
+
     public void typeInEmailAddress(String text) throws Exception{
         this.emailAddressBar.sendKeys(text);
         Thread.sleep(2000);
