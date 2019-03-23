@@ -11,6 +11,7 @@
     <modules>
         <module>Common</module>
         <module>Amazon</module>
+        <module>Costco</module>
     </modules>
 
     <dependencyManagement>
