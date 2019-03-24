@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="052a508a-f602-44ca-bf5e-df4e5e0ded4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/Utility/DataReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/Utility/DataReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/LocationsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/LocationsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/MembershipPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/MembershipPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/PharmacyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/PharmacyPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/RegisterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/ServicePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/ServicePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/SignInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/TestLocationsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/TestLocationsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/TestMembershipClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/TestMembershipClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/TestPharmacyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/TestPharmacyPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/TestRegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/TestRegisterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/TestServicePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/TestServicePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/TestSignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/TestSignInPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,10 +19,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/Utility2/DataReader2.java">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/java/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="-110">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#1282#1283#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,13 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java">
+        <entry file="file://$PROJECT_DIR$/Common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="105" lean-forward="true" selection-start-line="15" selection-start-column="105" selection-end-line="15" selection-end-column="105" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -148,9 +140,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="596" />
+    <option name="width" value="1280" />
     <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -165,6 +157,11 @@
             <path>
               <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
@@ -192,14 +189,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AutomationProjectGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationProjectGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -209,11 +198,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553452514350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553458292316" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -239,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestHomePage.selectsteps">
+  <component name="RunManager" selected="TestNG.TestHomePage">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="AutomationProject" />
       <option name="VM_PARAMETERS" />
@@ -345,8 +335,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestHomePage.selectsteps" />
         <item itemvalue="TestNG.TestHomePage" />
+        <item itemvalue="TestNG.TestHomePage.selectsteps" />
         <item itemvalue="TestNG.TestLocationsPage.testViewMoreLocations" />
         <item itemvalue="TestNG.TestLocationsPage" />
         <item itemvalue="TestNG.TestLoginpage.SuccessfulLogin" />
@@ -367,21 +357,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomepage_selectsteps - 2019.03.23 at 14h 31m 05s.xml">
-      <configuration name="TestHomepage.selectsteps" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestLoginpage - 2019.03.23 at 15h 07m 35s.xml">
-      <configuration name="TestLoginpage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage - 2019.03.23 at 15h 11m 53s.xml">
-      <configuration name="TestHomePage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_default__(1) - 2019.03.23 at 15h 17m 19s.xml">
-      <configuration name="&lt;default&gt; (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestLoginpage_SuccessfulLogin - 2019.03.23 at 15h 18m 36s.xml">
-      <configuration name="TestLoginpage.SuccessfulLogin" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestLocationsPage - 2019.03.23 at 15h 57m 13s.xml">
       <configuration name="TestLocationsPage" configurationId="TestNG" />
     </history-entry>
@@ -397,6 +372,21 @@
     <history-entry file="TestHomePage_selectsteps - 2019.03.24 at 14h 30m 29s.xml">
       <configuration name="TestHomePage.selectsteps" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestHomePage_selectsteps - 2019.03.24 at 14h 34m 11s.xml">
+      <configuration name="TestHomePage.selectsteps" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage - 2019.03.24 at 14h 55m 44s.xml">
+      <configuration name="TestHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage - 2019.03.24 at 15h 00m 19s.xml">
+      <configuration name="TestHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage - 2019.03.24 at 15h 00m 58s.xml">
+      <configuration name="TestHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage - 2019.03.24 at 15h 08m 20s.xml">
+      <configuration name="TestHomePage" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,8 +398,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1898223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -420,12 +409,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831737" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28548896" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28864354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32968536" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30914825" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17823344" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32649842" />
@@ -433,13 +422,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.03339041" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.031502422" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3515625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1898223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,21 +436,21 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32831737" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28864354" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35180724" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32968536" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30757096" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32649842" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.03516999" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.031502422" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -642,16 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/BaseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4882">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestMembershipClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-598">
@@ -694,17 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestPharmacyPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -725,27 +693,51 @@
     <entry file="file://$PROJECT_DIR$/Costco/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="29" />
+        <state relative-caret-position="-110">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/BaseClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        <state relative-caret-position="149">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/target/surefire-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="105" lean-forward="true" selection-start-line="15" selection-start-column="105" selection-end-line="15" selection-end-column="105" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -801,7 +793,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>practiceautomation</last-edited>
+          <last-edited>Amazon</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
