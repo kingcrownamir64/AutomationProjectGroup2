@@ -1,12 +1,19 @@
+import Utility2.DataReader2;
+import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class TestHomePage extends BaseClient {
 
     String homepageUrl = "https://www.costco.com";
     HomePage homePage;
+
+    DataReader2 excelData = new DataReader2();
+    String path = "/Users/Saqib/Desktop/AutomationProjectGroup2/Costco/src/test/Resources/ExcelFile.xls";
 
     @BeforeClass
     public void initialize(){
@@ -80,6 +87,24 @@ public class TestHomePage extends BaseClient {
         this.homePage.clickGrocery();
         this.homePage.inputInSearchBox("cereal");
         this.homePage.clickSearchButton();
+    }
+
+    @Test
+    public void selectsteps() throws Exception {
+        String[] testSteps = excelData.fileReader3(path, 0);
+        for (String str : testSteps) {
+            switch (str) {
+                case "search":
+                    search();
+                    break;
+                case "navigate":
+                    clickLocationsTab();
+                    break;
+                default:
+                    throw new InvalidArgumentException("Invalid choice");
+            }
+            System.out.println(str);
+        }
     }
 
 
