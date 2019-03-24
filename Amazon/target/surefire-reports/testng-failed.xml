@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TestLoginPage">
+        <methods>
+          <include name="NoPasswordLogin"/>
+          <include name="NoEmailLogin"/>
+          <include name="SuccessfulLogin"/>
+          <include name="NavigateCreateAccount"/>
+          <include name="NoCredentialLogin"/>
+        </methods>
+      </class> <!-- TestLoginPage -->
+      <class name="TestCreateAccountPage">
+        <methods>
+          <include name="EnterYourNameOnly"/>
+          <include name="EnterYourNameAndEmail"/>
+          <include name="SuccessfulLogin"/>
+          <include name="EnterYourNameEmailPassword"/>
+          <include name="testUserCanNavigateToCreateAccountPage"/>
+          <include name="EnterYourEmailOnly"/>
+        </methods>
+      </class> <!-- TestCreateAccountPage -->
+      <class name="TestAmazonFreshPage">
+        <methods>
+          <include name="testUserCanNavigateToBeveragesTab"/>
+          <include name="testUserCanNavigateToFreshFruitTab"/>
+          <include name="initialize"/>
+          <include name="testUserCanNavigateToFreshDealsButton"/>
+          <include name="testUserCanNavigateToAmazonFreshPage"/>
+          <include name="testUserCanNavigateToDeliTab"/>
+          <include name="testUserCanNavigateToDairyTab"/>
+          <include name="testUserCanNavigateToPastPurchasesButton"/>
+          <include name="testUserCanNavigateToBakeryTab"/>
+          <include name="testUserCanNavigateToHouseholdHealthBeautyTab"/>
+          <include name="testUserCanNavigateToContactFreshTab"/>
+          <include name="testUserCanNavigateToLocalMarketTab"/>
+          <include name="testUserCanNavigateToGroceriesButton"/>
+        </methods>
+      </class> <!-- TestAmazonFreshPage -->
+      <class name="TestHomepage">
+        <methods>
+          <include name="TestCartButton"/>
+          <include name="TestTodaysDealButton"/>
+          <include name="TestMenuButton"/>
+          <include name="TestYourAmazonButton"/>
+          <include name="testUserCanNavigateToHomePage"/>
+          <include name="selectsteps"/>
+          <include name="testSearchBar"/>
+          <include name="TestordersButton"/>
+          <include name="TestSearchButton"/>
+          <include name="TestTryPrimeButton"/>
+        </methods>
+      </class> <!-- TestHomepage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

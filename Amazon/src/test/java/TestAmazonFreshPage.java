@@ -1,4 +1,4 @@
-import Utility.DataReader;
+import Utility2.DataReader2;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;

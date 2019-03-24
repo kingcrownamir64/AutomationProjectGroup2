@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 99, Failures: 1, Errors: 0, Skipped: 98, Time elapsed: 0.646 sec <<< FAILURE!
+initialize(TestAmazonFreshPage)  Time elapsed: 0.253 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at TestAmazonFreshPage.initialize(TestAmazonFreshPage.java:19)
+
