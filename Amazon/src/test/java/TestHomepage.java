@@ -1,4 +1,4 @@
-import Utility.DataReader;
+import Utility2.DataReader2;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -13,7 +13,7 @@ public class TestHomepage extends BaseClient {
     String homepageUrl = "https://www.amazon.com/ref=ap_frn_logo";
     HomePage homePage;
 
-    DataReader excelData = new DataReader();
+    DataReader2 excelData = new DataReader2();
     String path = "/Users/amir/Desktop/AutomationProjectGroup2/Amazon/src/test/Resources/ExcelFile.xls";
 
     /**
@@ -120,24 +120,20 @@ public class TestHomepage extends BaseClient {
 
     @Test
     public void selectsteps() throws IOException, NullPointerException, InterruptedException {
-        String[]  testSteps = excelData.fileReader2(path,0);
-
-        for (String str : testSteps){
-
-                if (str.equalsIgnoreCase("search")) {
+        String[] testSteps = excelData.fileReader3(path, 0);
+        for (String str : testSteps) {
+            switch (str) {
+                case "search":
                     testSearchBar();
-                }
-            else if (str.equalsIgnoreCase("navigate")) {
-                    TestCartButton();
-                }
-                  else{
-                        throw new InvalidArgumentException("Invalid Choice you harami");
-                }
-
-                Thread.sleep(3000);
+                    break;
+                case "navigate":
+                    TestordersButton();
+                    break;
+                default:
+                    throw new InvalidArgumentException("Invalid choice");
             }
-
-
+            System.out.println(str);
+        }
     }
 }
 

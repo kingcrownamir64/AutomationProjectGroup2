@@ -12,6 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Amazon.com" target="1.5" />
+      <module name="Costco" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

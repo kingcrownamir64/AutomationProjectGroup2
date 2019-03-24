@@ -1,4 +1,4 @@
-package Utility;
+package Utility2;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -13,7 +13,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class DataReader {
+public class DataReader2 {
     HSSFWorkbook wb = null;
     HSSFSheet sheet = null;
     Cell cell = null;
@@ -43,7 +43,7 @@ public class DataReader {
 
 
 
-    public String[] fileReader2(String path, int sheetIndex) throws IOException {
+    public String[] fileReader3 (String path, int sheetIndex) throws IOException {
         String[] data = {};
 
         try {
@@ -59,8 +59,8 @@ public class DataReader {
                 HSSFRow row = sheet.getRow(i);
                 for (int j = 0; j < numberOfColumns; j++) {
                     HSSFCell cell = row.getCell(j);
-                    String cellData = getCellValue(cell);
-                    data[i-1] = cellData;
+                    //      String cellData = getCellValue(cell);
+                    data[i-1] = cell.getStringCellValue();
                 }
             }
         } catch (IOException e) {
